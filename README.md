@@ -22,13 +22,13 @@
  
  
  ```java
-public static final void main(String[] args) {
-    // 获取加载器
-    OpenExtensionLoader<TestDemo> openExtensionLoader = OpenExtensionLoader.getExtensionLoader( TestDemo.class );
-    // new实例对象
-    TestDemo testDemo =  openExtensionLoader.getExtension();
-    // 使用实例对象
-    System.out.println( testDemo.name() );
- }
+    public static final void main(String[] args) {
+        // 获取加载器
+        OpenExtensionLoader<TestDemo> openExtensionLoader = OpenExtensionLoader.getExtensionLoader( TestDemo.class );
+        // new实例对象
+        TestDemo testDemo =  openExtensionLoader.getExtension();
+        // 使用实例对象
+        System.out.println( testDemo.name() );
+    }
 ```
     
